@@ -2934,6 +2934,13 @@ input, select, textarea {
 		width: calc(100% + 1.25rem);
 	}
 
+	.gallery-row {
+		display: flex;
+		justify-content: space-between; /* Adjust spacing between images */
+		margin-bottom: 1.25rem; /* Same as the margin for gallery items */
+	}
+	
+
 		.gallery a {
 			border-bottom: 0;
 			display: block;
